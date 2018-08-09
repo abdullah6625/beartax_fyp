@@ -1,0 +1,448 @@
+{"message":"Exception:","level":"error"}
+{"message":"ReferenceError: ServingFromDB is not defined\n    at exports.getAllusers (/home/abdullah/final-year/project/controllers/api_ctrl.js:20:32)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at /home/abdullah/final-year/project/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:335:12)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:174:3)\n    at router (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:47:12)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"ReferenceError: servingFromDB is not defined\n    at exports.getAllusers (/home/abdullah/final-year/project/controllers/api_ctrl.js:20:32)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at /home/abdullah/final-year/project/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:335:12)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:174:3)\n    at router (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:47:12)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: dbConnection.collection is not a function\n    at Object.exports.read (/home/abdullah/final-year/project/database/mongodb.js:27:22)\n    at Object.exports.getAllUsers (/home/abdullah/final-year/project/models/user_model.js:10:20)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:12:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:24:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getAllusers (/home/abdullah/final-year/project/controllers/api_ctrl.js:22:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: db.collection is not a function\n    at Object.exports.read (/home/abdullah/final-year/project/database/mongodb.js:27:12)\n    at Object.exports.getAllUsers (/home/abdullah/final-year/project/models/user_model.js:10:20)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:12:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:24:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getAllusers (/home/abdullah/final-year/project/controllers/api_ctrl.js:22:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: Cannot read property 'find' of undefined\n    at Object.exports.read (/home/abdullah/final-year/project/database/mongodb.js:27:33)\n    at Object.exports.getAllUsers (/home/abdullah/final-year/project/models/user_model.js:10:20)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:12:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:24:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getAllusers (/home/abdullah/final-year/project/controllers/api_ctrl.js:22:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: dbConnection.collection is not a function\n    at Object.exports.read (/home/abdullah/final-year/project/database/mongodb.js:27:22)\n    at Object.exports.getAllUsers (/home/abdullah/final-year/project/models/user_model.js:10:20)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:12:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:24:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getAllusers (/home/abdullah/final-year/project/controllers/api_ctrl.js:22:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: dbConnection.collection is not a function\n    at Object.exports.read (/home/abdullah/final-year/project/database/mongodb.js:27:22)\n    at Object.exports.getAllUsers (/home/abdullah/final-year/project/models/user_model.js:10:20)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:12:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:24:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getAllusers (/home/abdullah/final-year/project/controllers/api_ctrl.js:22:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: Cannot read property 'collection' of undefined\n    at Object.exports.read (/home/abdullah/final-year/project/database/mongodb.js:27:31)\n    at Object.exports.getAllUsers (/home/abdullah/final-year/project/models/user_model.js:10:20)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:12:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:24:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getAllusers (/home/abdullah/final-year/project/controllers/api_ctrl.js:22:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: Cannot read property 'collection' of undefined\n    at Object.exports.read (/home/abdullah/final-year/project/database/mongodb.js:27:31)\n    at Object.exports.getAllUsers (/home/abdullah/final-year/project/models/user_model.js:10:20)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:12:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:24:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getAllusers (/home/abdullah/final-year/project/controllers/api_ctrl.js:22:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"ReferenceError: dbcollection is not defined\n    at Object.exports.read (/home/abdullah/final-year/project/database/mongodb.js:27:9)\n    at Object.exports.getAllUsers (/home/abdullah/final-year/project/models/user_model.js:10:20)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:12:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:24:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getAllusers (/home/abdullah/final-year/project/controllers/api_ctrl.js:22:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: Cannot read property 'collection' of undefined\n    at Object.exports.read (/home/abdullah/final-year/project/database/mongodb.js:27:25)\n    at Object.exports.getAllUsers (/home/abdullah/final-year/project/models/user_model.js:10:20)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:12:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:24:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getAllusers (/home/abdullah/final-year/project/controllers/api_ctrl.js:22:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: Cannot read property 'collection' of undefined\n    at Object.exports.read (/home/abdullah/final-year/project/database/mongodb.js:30:21)\n    at Object.exports.getAllUsers (/home/abdullah/final-year/project/models/user_model.js:10:20)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:12:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:24:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getAllusers (/home/abdullah/final-year/project/controllers/api_ctrl.js:22:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: Cannot read property 'collection' of undefined\n    at Object.exports.read (/home/abdullah/final-year/project/database/mongodb.js:30:21)\n    at Object.exports.getAllUsers (/home/abdullah/final-year/project/models/user_model.js:10:20)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:12:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:24:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getAllusers (/home/abdullah/final-year/project/controllers/api_ctrl.js:22:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: Cannot read property 'collection' of undefined\n    at Object.exports.read (/home/abdullah/final-year/project/database/mongodb.js:30:21)\n    at Object.exports.getAllUsers (/home/abdullah/final-year/project/models/user_model.js:10:20)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:12:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:24:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getAllusers (/home/abdullah/final-year/project/controllers/api_ctrl.js:22:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: dbConnection.collection is not a function\n    at Object.exports.read (/home/abdullah/final-year/project/database/mongodb.js:30:18)\n    at Object.exports.getAllUsers (/home/abdullah/final-year/project/models/user_model.js:10:20)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:12:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:24:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getAllusers (/home/abdullah/final-year/project/controllers/api_ctrl.js:22:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: dbConnection.collection is not a function\n    at Object.exports.read (/home/abdullah/final-year/project/database/mongodb.js:30:18)\n    at Object.exports.getAllUsers (/home/abdullah/final-year/project/models/user_model.js:10:20)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:12:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:24:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getAllusers (/home/abdullah/final-year/project/controllers/api_ctrl.js:22:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: dbConnection.collection is not a function\n    at Object.exports.read (/home/abdullah/final-year/project/database/mongodb.js:30:18)\n    at Object.exports.getAllUsers (/home/abdullah/final-year/project/models/user_model.js:10:20)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:12:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:24:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getAllusers (/home/abdullah/final-year/project/controllers/api_ctrl.js:22:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: dbConnection.collection is not a function\n    at Object.exports.read (/home/abdullah/final-year/project/database/mongodb.js:30:18)\n    at Object.exports.getAllUsers (/home/abdullah/final-year/project/models/user_model.js:10:20)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:12:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:24:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getAllusers (/home/abdullah/final-year/project/controllers/api_ctrl.js:22:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: dbConnection.collection is not a function\n    at Object.exports.read (/home/abdullah/final-year/project/database/mongodb.js:30:18)\n    at Object.exports.getAllUsers (/home/abdullah/final-year/project/models/user_model.js:10:20)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:12:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:24:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getAllusers (/home/abdullah/final-year/project/controllers/api_ctrl.js:22:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: dbConnection.collection is not a function\n    at Object.exports.read (/home/abdullah/final-year/project/database/mongodb.js:30:18)\n    at Object.exports.getAllUsers (/home/abdullah/final-year/project/models/user_model.js:10:20)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:12:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:24:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getAllusers (/home/abdullah/final-year/project/controllers/api_ctrl.js:22:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: dbConnection.collection is not a function\n    at Object.exports.read (/home/abdullah/final-year/project/database/mongodb.js:30:18)\n    at Object.exports.getAllUsers (/home/abdullah/final-year/project/models/user_model.js:10:20)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:12:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:24:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getAllusers (/home/abdullah/final-year/project/controllers/api_ctrl.js:22:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"ReferenceError: req is not defined\n    at exports.signup (/home/abdullah/final-year/project/controllers/api_ctrl.js:51:61)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at /home/abdullah/final-year/project/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:335:12)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:174:3)\n    at router (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:47:12)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"ReferenceError: req is not defined\n    at exports.signup (/home/abdullah/final-year/project/controllers/api_ctrl.js:51:61)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at /home/abdullah/final-year/project/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:335:12)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:174:3)\n    at router (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:47:12)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"ReferenceError: req is not defined\n    at exports.signup (/home/abdullah/final-year/project/controllers/api_ctrl.js:51:61)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at /home/abdullah/final-year/project/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:335:12)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:174:3)\n    at router (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:47:12)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"ReferenceError: req is not defined\n    at exports.signup (/home/abdullah/final-year/project/controllers/api_ctrl.js:51:61)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at /home/abdullah/final-year/project/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:335:12)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:174:3)\n    at router (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:47:12)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"ReferenceError: req is not defined\n    at exports.signup (/home/abdullah/final-year/project/controllers/api_ctrl.js:51:61)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at /home/abdullah/final-year/project/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:335:12)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:174:3)\n    at router (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:47:12)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"ReferenceError: req is not defined\n    at exports.signup (/home/abdullah/final-year/project/controllers/api_ctrl.js:51:61)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at /home/abdullah/final-year/project/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:335:12)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:174:3)\n    at router (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:47:12)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"ReferenceError: req is not defined\n    at exports.signup (/home/abdullah/final-year/project/controllers/api_ctrl.js:51:61)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at /home/abdullah/final-year/project/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:335:12)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:174:3)\n    at router (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:47:12)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: dbConnection.collection is not a function\n    at Object.exports.read (/home/abdullah/final-year/project/database/mongodb.js:30:18)\n    at Object.exports.getAllUsers (/home/abdullah/final-year/project/models/user_model.js:10:20)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:12:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:24:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getAllusers (/home/abdullah/final-year/project/controllers/api_ctrl.js:22:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"ReferenceError: req is not defined\n    at exports.signup (/home/abdullah/final-year/project/controllers/api_ctrl.js:51:61)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at /home/abdullah/final-year/project/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:335:12)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:174:3)\n    at router (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:47:12)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"ReferenceError: req is not defined\n    at exports.signup (/home/abdullah/final-year/project/controllers/api_ctrl.js:51:61)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at /home/abdullah/final-year/project/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:335:12)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:174:3)\n    at router (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:47:12)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"ReferenceError: req is not defined\n    at exports.signup (/home/abdullah/final-year/project/controllers/api_ctrl.js:51:61)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at /home/abdullah/final-year/project/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:335:12)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:174:3)\n    at router (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:47:12)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"ReferenceError: req is not defined\n    at exports.signup (/home/abdullah/final-year/project/controllers/api_ctrl.js:51:61)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at /home/abdullah/final-year/project/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:335:12)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:174:3)\n    at router (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:47:12)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"ReferenceError: req is not defined\n    at exports.signup (/home/abdullah/final-year/project/controllers/api_ctrl.js:51:61)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at /home/abdullah/final-year/project/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:335:12)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:174:3)\n    at router (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:47:12)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"ReferenceError: req is not defined\n    at exports.signup (/home/abdullah/final-year/project/controllers/api_ctrl.js:51:61)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at /home/abdullah/final-year/project/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:335:12)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:174:3)\n    at router (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:47:12)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"ReferenceError: req is not defined\n    at exports.signup (/home/abdullah/final-year/project/controllers/api_ctrl.js:51:61)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at /home/abdullah/final-year/project/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:335:12)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:174:3)\n    at router (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:47:12)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"ReferenceError: req is not defined\n    at exports.signup (/home/abdullah/final-year/project/controllers/api_ctrl.js:51:61)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at /home/abdullah/final-year/project/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:335:12)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:174:3)\n    at router (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:47:12)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"ReferenceError: req is not defined\n    at exports.signup (/home/abdullah/final-year/project/controllers/api_ctrl.js:51:61)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at /home/abdullah/final-year/project/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:335:12)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:174:3)\n    at router (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:47:12)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: dbConnection.collection is not a function\n    at Object.exports.read (/home/abdullah/final-year/project/database/mongodb.js:30:18)\n    at Object.exports.getAllUsers (/home/abdullah/final-year/project/models/user_model.js:10:20)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:12:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:24:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getAllusers (/home/abdullah/final-year/project/controllers/api_ctrl.js:22:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"ReferenceError: req is not defined\n    at exports.signup (/home/abdullah/final-year/project/controllers/api_ctrl.js:51:61)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at /home/abdullah/final-year/project/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:335:12)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:174:3)\n    at router (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:47:12)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"ReferenceError: req is not defined\n    at exports.signup (/home/abdullah/final-year/project/controllers/api_ctrl.js:51:61)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at /home/abdullah/final-year/project/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:335:12)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:174:3)\n    at router (/home/abdullah/final-year/project/node_modules/express/lib/router/index.js:47:12)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: dbConnection.collection is not a function\n    at Object.exports.create (/home/abdullah/final-year/project/database/mongodb.js:47:18)\n    at Object.exports.signup (/home/abdullah/final-year/project/models/user_model.js:24:29)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:15:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:58:35\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.signup (/home/abdullah/final-year/project/controllers/api_ctrl.js:56:19)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: dbConnection.collection is not a function\n    at Object.exports.read (/home/abdullah/final-year/project/database/mongodb.js:30:18)\n    at Object.exports.getAllUsers (/home/abdullah/final-year/project/models/user_model.js:10:20)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:12:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:24:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getAllusers (/home/abdullah/final-year/project/controllers/api_ctrl.js:22:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: dbConnection.collection is not a function\n    at Object.exports.read (/home/abdullah/final-year/project/database/mongodb.js:30:18)\n    at Object.exports.getAllUsers (/home/abdullah/final-year/project/models/user_model.js:10:20)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:12:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:24:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getAllusers (/home/abdullah/final-year/project/controllers/api_ctrl.js:22:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: dbConnection.collection is not a function\n    at Object.exports.read (/home/abdullah/final-year/project/database/mongodb.js:30:18)\n    at Object.exports.getAllUsers (/home/abdullah/final-year/project/models/user_model.js:10:20)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:12:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:24:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getAllusers (/home/abdullah/final-year/project/controllers/api_ctrl.js:22:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: dbConnection.collection is not a function\n    at Object.exports.read (/home/abdullah/final-year/project/database/mongodb.js:30:18)\n    at Object.exports.getAllUsers (/home/abdullah/final-year/project/models/user_model.js:10:20)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:12:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:24:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getAllusers (/home/abdullah/final-year/project/controllers/api_ctrl.js:22:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: dbConnection.collection is not a function\n    at Object.exports.read (/home/abdullah/final-year/project/database/mongodb.js:30:18)\n    at Object.exports.getAllUsers (/home/abdullah/final-year/project/models/user_model.js:10:20)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:12:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:24:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getAllusers (/home/abdullah/final-year/project/controllers/api_ctrl.js:22:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: dbConnection.collection is not a function\n    at Object.exports.read (/home/abdullah/final-year/project/database/mongodb.js:30:18)\n    at Object.exports.getAllUsers (/home/abdullah/final-year/project/models/user_model.js:10:20)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:12:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:24:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getAllusers (/home/abdullah/final-year/project/controllers/api_ctrl.js:22:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: dbConnection.collection is not a function\n    at Object.exports.read (/home/abdullah/final-year/project/database/mongodb.js:30:18)\n    at Object.exports.getAllUsers (/home/abdullah/final-year/project/models/user_model.js:10:20)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:12:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:24:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getAllusers (/home/abdullah/final-year/project/controllers/api_ctrl.js:22:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)","level":"error"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: dbConnection.collection is not a function\n    at Object.exports.read (/home/abdullah/final-year/project/database/mongodb.js:30:18)\n    at Object.exports.getAllUsers (/home/abdullah/final-year/project/models/user_model.js:10:20)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:12:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:24:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getAllusers (/home/abdullah/final-year/project/controllers/api_ctrl.js:22:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)","level":"error"}
+{"message":"route : /users","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /signup","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /users","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /signup","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /users","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /signup","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /users","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /signup","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /users","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /users","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /users","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /signup","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /users","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /users","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /users","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /users","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /users","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /signup","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /users","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"Exception:","level":"error"}
+{"message":"ReferenceError: Option is not defined\n    at Object.exports.read (/home/abdullah/final-year/project/database/mongodb.js:31:25)\n    at Object.exports.getAllUsers (/home/abdullah/final-year/project/models/user_model.js:10:20)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:12:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:25:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getAllusers (/home/abdullah/final-year/project/controllers/api_ctrl.js:23:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)","level":"error"}
+{"message":"route : /users","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /exchanges","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /exchanges","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /exchanges","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /exchanges","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /exchanges","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /exchanges","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /exchanges","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /exchanges","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /exchanges","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /users","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /exchanges","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /users","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /exchanges","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /users","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /users","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /users","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /users","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /users","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /users","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /users","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /users","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /users","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /exchanges","level":"info"}
+{"message":"method : DELETE","level":"info"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: models.users.deleteExchange is not a function\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:31:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:247:31\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.deleteExchange (/home/abdullah/final-year/project/controllers/api_ctrl.js:245:15)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)\n    at /home/abdullah/final-year/project/node_modules/express-validation/lib/index.js:45:47\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)","level":"error"}
+{"message":"route : /exchanges","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /exchanges","level":"info"}
+{"message":"method : DELETE","level":"info"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: models.users.deleteExchange is not a function\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:31:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:247:31\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.deleteExchange (/home/abdullah/final-year/project/controllers/api_ctrl.js:245:15)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)\n    at /home/abdullah/final-year/project/node_modules/express-validation/lib/index.js:45:47\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)","level":"error"}
+{"message":"route : /signup","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /exchanges","level":"info"}
+{"message":"method : DELETE","level":"info"}
+{"message":"route : /exchanges","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /signup","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /signup","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /exchanges","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /exchanges","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /exchanges","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /users","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /exchanges","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /exchanges","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /users","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /signup","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /users","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /users","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /transactions","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /transactions","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: Cannot read property 'exchangeName' of undefined\n    at Object.exports.getTransactions (/home/abdullah/final-year/project/models/user_model.js:137:51)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:40:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:336:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getTransactions (/home/abdullah/final-year/project/controllers/api_ctrl.js:334:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)\n    at /home/abdullah/final-year/project/node_modules/express-validation/lib/index.js:45:47","level":"error"}
+{"message":"route : /users","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /transactions","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: Cannot read property 'exchangeName' of undefined\n    at Object.exports.getTransactions (/home/abdullah/final-year/project/models/user_model.js:137:51)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:40:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:336:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getTransactions (/home/abdullah/final-year/project/controllers/api_ctrl.js:334:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)\n    at /home/abdullah/final-year/project/node_modules/express-validation/lib/index.js:45:47","level":"error"}
+{"message":"route : /transactions","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: Cannot read property 'exchangeName' of undefined\n    at Object.exports.getTransactions (/home/abdullah/final-year/project/models/user_model.js:137:51)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:40:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:336:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getTransactions (/home/abdullah/final-year/project/controllers/api_ctrl.js:334:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)\n    at /home/abdullah/final-year/project/node_modules/express-validation/lib/index.js:45:47","level":"error"}
+{"message":"route : /transactions","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: Cannot read property 'exchangeName' of undefined\n    at Object.exports.getTransactions (/home/abdullah/final-year/project/models/user_model.js:137:51)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:40:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:336:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getTransactions (/home/abdullah/final-year/project/controllers/api_ctrl.js:334:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)\n    at /home/abdullah/final-year/project/node_modules/express-validation/lib/index.js:45:47","level":"error"}
+{"message":"route : /users","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /transactions","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: Cannot read property 'exchangeName' of undefined\n    at Object.exports.getTransactions (/home/abdullah/final-year/project/models/user_model.js:137:51)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:40:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:336:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getTransactions (/home/abdullah/final-year/project/controllers/api_ctrl.js:334:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)\n    at /home/abdullah/final-year/project/node_modules/express-validation/lib/index.js:45:47","level":"error"}
+{"message":"route : /transactions","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: Cannot read property 'exchangeName' of undefined\n    at Object.exports.getTransactions (/home/abdullah/final-year/project/models/user_model.js:137:51)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:40:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:336:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getTransactions (/home/abdullah/final-year/project/controllers/api_ctrl.js:334:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)\n    at /home/abdullah/final-year/project/node_modules/express-validation/lib/index.js:45:47","level":"error"}
+{"message":"route : /transactions","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: Cannot read property 'exchangeName' of undefined\n    at Object.exports.getTransactions (/home/abdullah/final-year/project/models/user_model.js:137:51)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:40:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:336:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getTransactions (/home/abdullah/final-year/project/controllers/api_ctrl.js:334:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)\n    at /home/abdullah/final-year/project/node_modules/express-validation/lib/index.js:45:47","level":"error"}
+{"message":"route : /transactions","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /transactions","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /transactions","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /transactions","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /exchanges","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /exchanges","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /users","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /users","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /users","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /transactions","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /transactions","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /transactions","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: Cannot read property 'exchangeName' of undefined\n    at Object.exports.getTransactions (/home/abdullah/final-year/project/models/user_model.js:137:51)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:40:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:336:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getTransactions (/home/abdullah/final-year/project/controllers/api_ctrl.js:334:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)\n    at /home/abdullah/final-year/project/node_modules/express-validation/lib/index.js:45:47","level":"error"}
+{"message":"route : /transactions","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: Cannot read property 'exchangeName' of undefined\n    at Object.exports.getTransactions (/home/abdullah/final-year/project/models/user_model.js:137:51)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:40:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:336:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getTransactions (/home/abdullah/final-year/project/controllers/api_ctrl.js:334:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)\n    at /home/abdullah/final-year/project/node_modules/express-validation/lib/index.js:45:47","level":"error"}
+{"message":"route : /exchanges","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /transactions","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /transactions","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /transactions","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: Cannot read property 'exchangeName' of undefined\n    at Object.exports.getTransactions (/home/abdullah/final-year/project/models/user_model.js:137:53)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:40:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:336:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getTransactions (/home/abdullah/final-year/project/controllers/api_ctrl.js:334:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)\n    at /home/abdullah/final-year/project/node_modules/express-validation/lib/index.js:45:47","level":"error"}
+{"message":"route : /users","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /transactions","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: Cannot read property 'exchangeName' of undefined\n    at Object.exports.getTransactions (/home/abdullah/final-year/project/models/user_model.js:137:53)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:40:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:336:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getTransactions (/home/abdullah/final-year/project/controllers/api_ctrl.js:334:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)\n    at /home/abdullah/final-year/project/node_modules/express-validation/lib/index.js:45:47","level":"error"}
+{"message":"route : /transactions","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"Exception:","level":"error"}
+{"message":"TypeError: Cannot read property 'exchangeName' of undefined\n    at Object.exports.getTransactions (/home/abdullah/final-year/project/models/user_model.js:137:53)\n    at Object.sendRequest (/home/abdullah/final-year/project/controllers/models_ctrl.js:40:30)\n    at Object.exports.send (/home/abdullah/final-year/project/controllers/request_broker_ctrl.js:12:24)\n    at /home/abdullah/final-year/project/controllers/api_ctrl.js:336:42\n    at nextTask (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5324:14)\n    at Object.waterfall (/home/abdullah/final-year/project/node_modules/async/dist/async.js:5334:5)\n    at exports.getTransactions (/home/abdullah/final-year/project/controllers/api_ctrl.js:334:23)\n    at Layer.handle [as handle_request] (/home/abdullah/final-year/project/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abdullah/final-year/project/node_modules/express/lib/router/route.js:137:13)\n    at /home/abdullah/final-year/project/node_modules/express-validation/lib/index.js:45:47","level":"error"}
+{"message":"route : /transactions","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /exchanges","level":"info"}
+{"message":"method : PUT","level":"info"}
+{"message":"route : /exchanges","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /exchanges","level":"info"}
+{"message":"method : PUT","level":"info"}
+{"message":"route : /exchanges","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /exchanges","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /transactions","level":"info"}
+{"message":"method : PUT","level":"info"}
+{"message":"route : /transactions","level":"info"}
+{"message":"method : DELETE","level":"info"}
+{"message":"route : /transactions","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /users","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /signup","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /signup","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /signup","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /login","level":"info"}
+{"message":"method : POST","level":"info"}
+{"message":"route : /users","level":"info"}
+{"message":"method : GET","level":"info"}
+{"message":"route : /exchanges","level":"info"}
+{"message":"method : GET","level":"info"}
