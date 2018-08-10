@@ -82,6 +82,45 @@
     }
 
    }
+   exports.sendOtp = function(req, res, next){
+    try{
+        logger.debug("request body : " + JSON.stringify(req.body));
+        var data  = {};
+        var otpData = {};
+        var otp = Math.floor(100000 + Math.random() * 900000)
+        otpData.otp = otp;
+        otpData.contactNumber = req.body.payload.contactNumber;
+        data.payload = otpData;
+        //Sending mail
+        emailSender.sendMail(otp);
+        //end       
+        data.serveFrom = constants.servingFromDB;
+        data.route = "sendOtp";
+        async.waterfall([
+
+            function(callback){
+                requestBroker.send(data, function (error, response) {
+                    return callback(error, response);
+                });
+            }
+
+        ], function(err, results){
+            if(err){
+                return next(err);
+            }
+            else{
+                return next(results);
+            }
+        });
+
+
+    }catch(e){
+        logger.error("Exception:" );
+        logger.error(e.stack);
+        utils.serverException(e, next);
+    }
+
+}
    exports.login = function(req, res, next){
     try{
         logger.debug("request body : " + JSON.stringify(req.body));
