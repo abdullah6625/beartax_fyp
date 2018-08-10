@@ -5,6 +5,7 @@
    var utils = require('../utils');
    var async = require('async');
    var sessionManager = require('./session_manager_ctrl');
+   var emailSender= require('../services/email_services');
    
 
   

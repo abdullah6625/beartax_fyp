@@ -159,3 +159,30 @@ exports.updateTransaction=function(data,next){
         utils.serverException(e, next);
     }
 }
+exports.sendOtp=function(data,next){
+    try{
+                data.collection="otps",
+                dbService.create(data,function(err,results){
+                  return next(err, results);
+                });
+    }catch (e)
+    {
+      logger.error("Exception:" );
+      logger.error(e.stack);
+      utils.serverException(e, next);   
+    }
+}
+exports.otpConf = function(data, next){
+    try{
+        data.collection ="otps";
+        data.where = {contactNumber:data.payload.contactNumber};
+        dbService.read(data, function (err, result) {
+            return next(err, result);
+        });
+  
+    }catch (e) {
+        logger.error("Exception:" );
+        logger.error(e.stack);
+        utils.serverException(e, next);
+}
+}

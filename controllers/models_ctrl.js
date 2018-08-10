@@ -37,11 +37,14 @@ function sendRequest(route,data, next) {
                 models.transactions.addTransaction(data, next);
                 break;
         case 'getTransactions':
-                models.transactions.getTransactions(data, next);
-                break;
+                            models.transactions.getTransactions(data, next);
+                            break;
     case 'updateTransaction':
-            models.transactions.updateTransaction(data, next);
-                break;
+                     models.transactions.updateTransaction(data, next);
+                            break;
+     case 'sendOtp':
+                    models.users.sendOtp(data, next);
+                    break;
         }
     } catch (e) {
         logger.error("Exception:" )  ;
