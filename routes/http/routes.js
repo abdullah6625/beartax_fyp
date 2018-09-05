@@ -21,5 +21,5 @@
    router.post('/transactions',utils.logHttpReq, sessionManager.sessionChecker,expressValidation(validations.addTransaction),apiController.addTransaction,utils.httpResponse);
    router.get('/transactions',utils.logHttpReq, sessionManager.sessionChecker,expressValidation(validations.getTransactions),apiController.getTransactions,utils.httpResponse);
   router.put('/transactions',utils.logHttpReq, sessionManager.sessionChecker,expressValidation(validations.updateTransaction),apiController.updateTransaction,utils.httpResponse);  
-  //router.post('otp',utils.logHttpReq,expressValidation(validations.otp),apiController.sendotp,utils.httpResponse)
+  router.post('/otp',utils.logHttpReq,expressValidation(validations.otps),apiController.sendOtp,utils.httpResponse)
   module.exports = router;

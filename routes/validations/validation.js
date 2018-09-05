@@ -98,9 +98,8 @@ module.exports ={
     otps:{
         body:{
             payload:joi.object({
-                email:joi.email().required(),
                 contactNumber:joi.number().required()
-            })
-        }
+            }).required()
+        },
     }
 }

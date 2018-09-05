@@ -55,13 +55,31 @@
             var data ={};
             data.payload=req.body.payload;
             data.serveFrom=constants.servingFromDB;
-            data.route="signup";
+            
             async.waterfall([
                 function(callback){
+                    data.route="otpconf";
                     requestBroker.send(data,function(err,response){ 
-                         return callback(err,response);
-                    });
+                        if(error){
+                            return callback(error, response);
+                        }else{
+                            return callback(error, response);
+                        }});
+
                     
+                  },
+                  function callback(response,callback)
+                  {
+                       if(response.contactNumber==data.payload.contactNumber&& response.otp==data.payload.otp)
+                       {
+                           data.route="signup";
+                           requestBroker.send(data, function (error, response) {
+                            return callback(error, response);
+                        });
+                        }else{
+                            var error ={code: "RC005", message: "Not Authorize to signup" }
+                            return callback(error); 
+    }
                   }
 
          ],
