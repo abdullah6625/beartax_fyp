@@ -99,8 +99,12 @@ module.exports ={
     otps:{
         body:{
             payload:joi.object({
+<<<<<<< HEAD
                 email: joi.string().email().required(),
                 contactNumber: joi.string().required()
+=======
+                contactNumber:joi.number().required()
+>>>>>>> 6da0a23abb98f52bd232a6014d5210397ace14ef
             }).required()
         },
     }
