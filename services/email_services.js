@@ -8,10 +8,10 @@ var transporter = nodemailer.createTransport({
            pass: configs.email.password			//Password 
        }
    });
-exports.sendMail = function sendMail(otp){
+exports.sendMail = function sendMail(otp,recievermail){
        var details = {
            from: configs.email.from, // sender address same as above
-           to: 'reciever mail', 					// Receiver's email id
+           to: recievermail, 					// Receiver's email id
            subject: configs.email.otp.subject, // Subject of the mail.
            html: configs.email.otp.html + otp					// Sending OTP 
        };
@@ -22,5 +22,6 @@ exports.sendMail = function sendMail(otp){
                console.log(error)
            else
                console.log(data);
-});
+           });
        }
+// sendMail(otp.toString() );

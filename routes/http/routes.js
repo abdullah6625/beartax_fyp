@@ -15,11 +15,11 @@
    router.post('/login', utils.logHttpReq, expressValidation(validations.login), apiController.login, utils.httpResponse);
    router.post('/exchanges',utils.logHttpReq, sessionManager.sessionChecker,expressValidation(validations.exchanges),apiController.exchanges,utils.httpResponse);
    router.get('/exchanges',utils.logHttpReq, sessionManager.sessionChecker,expressValidation(validations.getExchange),apiController.getExchange,utils.httpResponse);
-  router.put('/exchanges',utils.logHttpReq, sessionManager.sessionChecker,expressValidation(validations.updateExchange),apiController.updateExchange,utils.httpResponse);   
+   router.put('/exchanges',utils.logHttpReq, sessionManager.sessionChecker,expressValidation(validations.updateExchange),apiController.updateExchange,utils.httpResponse);   
    router.delete('/exchanges',utils.logHttpReq, sessionManager.sessionChecker,expressValidation(validations.deleteExchange),apiController.deleteExchange,utils.httpResponse);
    router.delete('/transactions',utils.logHttpReq, sessionManager.sessionChecker,expressValidation(validations.deleteTransaction),apiController.deleteTransaction,utils.httpResponse);
    router.post('/transactions',utils.logHttpReq, sessionManager.sessionChecker,expressValidation(validations.addTransaction),apiController.addTransaction,utils.httpResponse);
-   router.get('/transactions',utils.logHttpReq, sessionManager.sessionChecker,expressValidation(validations.getTransactions),apiController.getTransactions,utils.httpResponse);
+   router.get('/transactions',utils.logHttpReq, expressValidation(validations.getTransactions),apiController.getTransactions,utils.httpResponse);
   router.put('/transactions',utils.logHttpReq, sessionManager.sessionChecker,expressValidation(validations.updateTransaction),apiController.updateTransaction,utils.httpResponse);  
-  //router.post('otp',utils.logHttpReq,expressValidation(validations.otp),apiController.sendotp,utils.httpResponse)
+  router.post('/otp',utils.logHttpReq,expressValidation(validations.otps),apiController.sendOtp,utils.httpResponse)
   module.exports = router;

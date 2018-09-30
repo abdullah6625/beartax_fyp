@@ -25,10 +25,11 @@ module.exports ={
                   userName:joi.string().required(),
                   email:joi.string().email().required(),
                   password:joi.string().required(),
-                  contactNumber:joi.number().required()
-                
+                  contactNumber:joi.string().required(),
+                  otp:joi.number().required()
+                  
 
-            }),
+            }).required(),
         }
 
 
@@ -66,7 +67,7 @@ module.exports ={
     addTransaction:{
                     body:{
                     payload:joi.object({
-                        exchangeName:joi.string().required(),
+                        exchangeId:joi.string().required(),
                         transactionId:joi.number().required(),
                         type:joi.string().required(),
                         proceeds:joi.number().required(),
@@ -98,9 +99,10 @@ module.exports ={
     otps:{
         body:{
             payload:joi.object({
-                email:joi.email().required(),
-                contactNumber:joi.number().required()
-            })
-        }
+                email: joi.string().email().required(),
+                contactNumber: joi.string().required()
+            }).required()
+        },
     }
 }
+ 

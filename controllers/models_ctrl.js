@@ -45,6 +45,9 @@ function sendRequest(route,data, next) {
      case 'sendOtp':
                     models.users.sendOtp(data, next);
                     break;
+     case 'otpconf':
+                    models.users.otpConf(data, next);
+                    break;
         }
     } catch (e) {
         logger.error("Exception:" )  ;

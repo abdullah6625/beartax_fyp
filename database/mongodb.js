@@ -28,7 +28,7 @@ exports.read = function (data, callback) {
     var where = data.where || {};
     logger.debug("read query where : "+ JSON.stringify(where));
         
-    MongoClient.connect(url, function(err, db){
+    MongoClient.connect(url,{useNewUrlParser:true}, function(err, db){
         if (err) throw err;
         var dbo = db.db("beatax");
         dbo.collection(collection).find(where).toArray(function(err, results) {
@@ -49,7 +49,7 @@ exports.read = function (data, callback) {
 exports.create = function (data, callback) {
     logger.debug("create query data : "+ JSON.stringify(data.payload));
     var collection = data.collection;
-    MongoClient.connect(url, function(err, db){
+    MongoClient.connect(url,{useNewUrlParser:true}, function(err, db){
         if (err) throw err;
         var dbo = db.db("beatax");
     dbo.collection(collection).insertOne(data.payload, function(err, results){

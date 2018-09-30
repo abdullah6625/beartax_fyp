@@ -55,14 +55,33 @@
             var data ={};
             data.payload=req.body.payload;
             data.serveFrom=constants.servingFromDB;
-            data.route="signup";
-            async.waterfall([
-                function(callback){
+        
+            async.waterfall([ function(callback){
+                   
+                
+                  data.route="otpconf";
                     requestBroker.send(data,function(err,response){ 
-                         return callback(err,response);
-                    });
+                        if(err){
+                            return callback(err, response);
+                        }else{
+                            return callback(err, response);
+                        }});
+
                     
-                  }
+                  },
+                  function callback(response,callback)
+                  {
+                       if(response.length==1)
+                       {
+                           data.route="signup";
+                           requestBroker.send(data, function (error, response) {
+                            return callback(error, response);
+                        });
+                        }else{
+                            var error ={code: "RC005", message: "Not Authorize to signup" }
+                            return callback(error); 
+    }
+}     
 
          ],
 
@@ -83,19 +102,23 @@
     }
 
    }
+   
    exports.sendOtp = function(req, res, next){
     try{
         logger.debug("request body : " + JSON.stringify(req.body));
         var data  = {};
-        var otpData = {};
+        var otpObj = {};
         var otp = Math.floor(100000 + Math.random() * 900000)
-        otpData.otp = otp;
-        otpData.contactNumber = req.body.payload.contactNumber;
-        data.payload = otpData;
+        otpObj.otp = otp;
+        otpObj.contactNumber = req.body.payload.contactNumber;
+        otpObj.recieverEmail=req.body.payload.email;
+        var recievermail=req.body.payload.email;
+        data.payload = otpObj;
         //Sending mail
-        emailSender.sendMail(otp);
+        emailSender.sendMail(otp,recievermail);
         //end       
         data.serveFrom = constants.servingFromDB;
+
         data.route = "sendOtp";
         async.waterfall([
 
@@ -122,6 +145,7 @@
     }
 
 }
+
    exports.login = function(req, res, next){
     try{
         logger.debug("request body : " + JSON.stringify(req.body));

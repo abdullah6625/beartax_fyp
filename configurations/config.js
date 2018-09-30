@@ -19,13 +19,13 @@ module.exports = {
         }
     },
     email:{
-        from:"sender mail",
+        from:"abdullahmasood186@gmail.com",
         services: "gmail",
-        password : "password",
+        password : "03328574726",
         otp :{           
             subject : "no-reply-emailVerification",
             html : "Type this code to signup ",
-}
+        }
     },
     supportedDB : constants.supportedDatabases.mongodb
 }
