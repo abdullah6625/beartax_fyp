@@ -9,6 +9,7 @@
     "async": "^2.6.1",
     "body-parser": "^1.18.3",
     "ccxt": "^1.17.352",
+    "coinbase": "^2.0.8",
     "connect-mongo": "^2.0.1",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",

@@ -78,7 +78,7 @@
                             return callback(error, response);
                         });
                         }else{
-                            var error ={code: "RC005", message: "Not Authorize to signup" }
+                            var error ={code: 5, message: "Not Authorize to signup" }
                             return callback(error); 
     }
 }     
@@ -162,15 +162,15 @@
             },
             function(response, callback){
                 if(response.length==0){
-                    var error ={code: "RC002", message: "User not exist" }             
+                    var error ={code: 2, message: "User not exist" }             
                     return callback(error);
                 }
                 if(response[0].password!= data.payload.password){
-                    var error ={code: "RC001", message: "Passward does not match" }
+                    var error ={code: 1, message: "Passward does not match" }
                     return callback(error);
                 }
                 sessionManager.createSession(req, response[0]);
-                var result = {code: "RC0200", message: "Successfull",result:response};
+                var result = {code:7, message: "Successfull",result:response};
                 return callback(null,result);
             }
                  

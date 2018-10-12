@@ -67,7 +67,7 @@ module.exports ={
     addTransaction:{
                     body:{
                     payload:joi.object({
-                        exchangeId:joi.string().required(),
+                        exchangeId:joi.number().required(),
                         transactionId:joi.number().required(),
                         type:joi.string().required(),
                         proceeds:joi.number().required(),
@@ -99,12 +99,10 @@ module.exports ={
     otps:{
         body:{
             payload:joi.object({
-<<<<<<< HEAD
+
                 email: joi.string().email().required(),
                 contactNumber: joi.string().required()
-=======
-                contactNumber:joi.number().required()
->>>>>>> 6da0a23abb98f52bd232a6014d5210397ace14ef
+
             }).required()
         },
     }
